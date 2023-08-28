@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_Taller.Presentacion.Formularios.Login;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace Proyecto_Taller
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formLogin form2 = new formLogin();
+            form2.Show();
         }
     }
 }

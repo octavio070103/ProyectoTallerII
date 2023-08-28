@@ -1,0 +1,11 @@
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\bin\Debug\Proyecto-Taller.exe.config
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\bin\Debug\Proyecto-Taller.exe
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\bin\Debug\Proyecto-Taller.pdb
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.AssemblyReference.cache
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Properties.Resources.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.GenerateResource.cache
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.CoreCompileInputs.cache
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.exe
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.pdb
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Login.formLogin.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Form1.resources

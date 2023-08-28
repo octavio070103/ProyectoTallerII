@@ -52,8 +52,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Formularios\Login\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Login\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Login\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +74,12 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DataAccess\.editorconfig" />
+    <None Include="Presentacion\Fotos\Gerente\.editorconfig" />
+    <None Include="Presentacion\Fotos\Inicio\.editorconfig" />
+    <None Include="Presentacion\Fotos\Login\.editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +92,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Presentacion\Formularios\Admin\" />
+    <Folder Include="Presentacion\Formularios\Gerente\" />
+    <Folder Include="Presentacion\Formularios\Inicio\" />
+    <Folder Include="Presentacion\Formularios\Vendedor\" />
+    <Folder Include="Presentacion\Fotos\Admin\" />
+    <Folder Include="Presentacion\Fotos\Vendedor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Presentacion\Fotos\Gerente\borarr.txt" />
+    <Content Include="Presentacion\Fotos\Inicio\borarr.txt" />
+    <None Include="Presentacion\Fotos\Login\back.png" />
+    <Content Include="Presentacion\Fotos\Login\borarr.txt" />
+    <None Include="Presentacion\Fotos\Login\Gratafy Dashboard Login Page.jpg" />
+    <None Include="Resources\Gratafy Dashboard Login Page1.jpg" />
+    <None Include="Resources\Gratafy Dashboard Login Page.jpg" />
+    <None Include="Resources\Diseño sin título.png" />
+    <None Include="Resources\back.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
