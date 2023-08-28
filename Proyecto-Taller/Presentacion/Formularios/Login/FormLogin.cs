@@ -157,7 +157,21 @@ namespace Proyecto_Taller.Presentacion.Formularios.Login
             if (validarCampos())
             {
                 borrarMensajeError();
+
+            /*Ejemplo hasta conectar a la BD autenticación y validación del usuario y contraseña*/
+                
+                if (txtUsuario.Text == "octi" && txtPassword.Text == "123")
+                {
+                    // Usuario autenticado con éxito
+                    MessageBox.Show("¡Inicio de sesión exitoso!", "Inicio de Sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    // Credenciales incorrectas
+                    MessageBox.Show("Nombre de usuario o contraseña incorrectos.", "Error de Inicio de Sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+
         }
 
         private bool validarCampos() 
@@ -182,9 +196,9 @@ namespace Proyecto_Taller.Presentacion.Formularios.Login
         {
             errorProvider1.SetError(txtUsuario, ""); // Limpiar mensaje de error
             errorProvider1.SetError(txtPassword, ""); // Limpiar mensaje de error
-        
+
         }
 
-      
+       
     }
 }
