@@ -23,7 +23,7 @@ namespace Proyecto_Taller
         {
            // formLogin form2 = new formLogin();
           //  form2.Show();
-            FormMenu form2 = new FormMenu();
+            FormMenuGerente form2 = new FormMenuGerente();
              form2.Show();
         }
     }

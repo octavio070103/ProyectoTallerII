@@ -52,11 +52,29 @@
     <Compile Include="inicio.Designer.cs">
       <DependentUpon>inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Formularios\Gerente\prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Gerente\prueba.Designer.cs">
+      <DependentUpon>prueba.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Formularios\Login\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\Formularios\Login\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Gerente\FormMenuGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Gerente\FormMenuGerente.Designer.cs">
+      <DependentUpon>FormMenuGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\menu\MenuPadre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\menu\MenuPadre.Designer.cs">
+      <DependentUpon>MenuPadre.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.cs">
       <SubType>Form</SubType>
@@ -64,34 +82,25 @@
     <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.Designer.cs">
       <DependentUpon>FormPrueba.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Formularios\Gerente\FormMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Presentacion\Formularios\Gerente\FormMenu.Designer.cs">
-      <DependentUpon>FormMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.Designer.cs">
-      <DependentUpon>MenuVendedor.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Gerente\prueba.resx">
+      <DependentUpon>prueba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Login\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Gerente\FormMenuGerente.resx">
+      <DependentUpon>FormMenuGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\menu\MenuPadre.resx">
+      <DependentUpon>MenuPadre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Vendedor\FormPrueba.resx">
       <DependentUpon>FormPrueba.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Formularios\Gerente\FormMenu.resx">
-      <DependentUpon>FormMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Formularios\Vendedor\MenuVendedor.resx">
-      <DependentUpon>MenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -104,6 +113,8 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DataAccess\.editorconfig" />
+    <None Include="Presentacion\Fotos\Login\back.png" />
+    <None Include="Presentacion\Fotos\Login\Gratafy Dashboard Login Page.jpg" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -113,6 +124,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\back.jpg" />
+    <None Include="Resources\Diseño sin título.png" />
+    <None Include="Resources\Gratafy Dashboard Login Page.jpg" />
+    <None Include="Resources\Gratafy Dashboard Login Page1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -126,12 +141,23 @@
     <Folder Include="Presentacion\Fotos\Vendedor\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Presentacion\Fotos\Login\back.png" />
-    <None Include="Presentacion\Fotos\Login\Gratafy Dashboard Login Page.jpg" />
-    <None Include="Resources\Gratafy Dashboard Login Page1.jpg" />
-    <None Include="Resources\Gratafy Dashboard Login Page.jpg" />
-    <None Include="Resources\Diseño sin título.png" />
-    <None Include="Resources\back.jpg" />
+    <Content Include="Presentacion\Formularios\Vendedor\borarr.txt" />
+    <Content Include="Presentacion\Fotos\Login\home.png" />
+    <Content Include="Presentacion\Fotos\Login\logout %281%29.png" />
+    <Content Include="Presentacion\Fotos\Login\logout .png" />
+    <Content Include="Presentacion\Fotos\Login\maximizar.png" />
+    <Content Include="Presentacion\Fotos\Login\menu-burger.png" />
+    <Content Include="Presentacion\Fotos\Login\minimizar-signo.png" />
+    <Content Include="Presentacion\Fotos\Login\user.png" />
+    <Content Include="Presentacion\Fotos\Login\x.png" />
+    <Content Include="Resources\home.png" />
+    <Content Include="Resources\icons8-compress-96.png" />
+    <Content Include="Resources\logout %281%29.png" />
+    <Content Include="Resources\logout .png" />
+    <Content Include="Resources\maximizar.png" />
+    <Content Include="Resources\minimizar-signo.png" />
+    <Content Include="Resources\user.png" />
+    <Content Include="Resources\x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

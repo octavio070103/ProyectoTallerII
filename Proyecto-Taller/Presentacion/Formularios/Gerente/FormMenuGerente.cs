@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_Taller.Presentacion.Formularios.Gerente;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,10 +11,12 @@ using System.Windows.Forms;
 
 namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
 {
-    public partial class FormMenu : Form
+    public partial class FormMenuGerente : Form
     {
         private bool isMaximized = false; // Variable para realizar seguimiento del estado de maximización
-        public FormMenu()
+        private int contractedWidth = 50; // Ancho contraído del menú
+        private int expandedWidth = 200; // Ancho expandido del menú
+        public FormMenuGerente()
         {
             InitializeComponent();
         }
@@ -41,5 +44,28 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
         {
             Application.Exit();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+      
+
+       
+            if (panel1.Width == contractedWidth)
+            {
+                panel1.Width = expandedWidth; // Desplegar el menú
+            }
+            else
+            {
+                panel1.Width = contractedWidth; // Contraer el menú
+            }
+        
+         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            MenuPadre form2 = new MenuPadre();
+            form2.Show();
+        }
     }
+
 }
