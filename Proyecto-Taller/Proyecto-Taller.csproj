@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="inicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Formularios\Login\FormLogin.cs">
       <SubType>Form</SubType>
@@ -58,13 +58,31 @@
     <Compile Include="Presentacion\Formularios\Login\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.Designer.cs">
+      <DependentUpon>FormPrueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.Designer.cs">
+      <DependentUpon>MenuVendedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Login\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Vendedor\FormPrueba.resx">
+      <DependentUpon>FormPrueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Vendedor\MenuVendedor.resx">
+      <DependentUpon>MenuVendedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,9 +95,6 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DataAccess\.editorconfig" />
-    <None Include="Presentacion\Fotos\Gerente\.editorconfig" />
-    <None Include="Presentacion\Fotos\Inicio\.editorconfig" />
-    <None Include="Presentacion\Fotos\Login\.editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -97,15 +112,13 @@
     <Folder Include="Presentacion\Formularios\Admin\" />
     <Folder Include="Presentacion\Formularios\Gerente\" />
     <Folder Include="Presentacion\Formularios\Inicio\" />
-    <Folder Include="Presentacion\Formularios\Vendedor\" />
     <Folder Include="Presentacion\Fotos\Admin\" />
+    <Folder Include="Presentacion\Fotos\Gerente\" />
+    <Folder Include="Presentacion\Fotos\Inicio\" />
     <Folder Include="Presentacion\Fotos\Vendedor\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Presentacion\Fotos\Gerente\borarr.txt" />
-    <Content Include="Presentacion\Fotos\Inicio\borarr.txt" />
     <None Include="Presentacion\Fotos\Login\back.png" />
-    <Content Include="Presentacion\Fotos\Login\borarr.txt" />
     <None Include="Presentacion\Fotos\Login\Gratafy Dashboard Login Page.jpg" />
     <None Include="Resources\Gratafy Dashboard Login Page1.jpg" />
     <None Include="Resources\Gratafy Dashboard Login Page.jpg" />

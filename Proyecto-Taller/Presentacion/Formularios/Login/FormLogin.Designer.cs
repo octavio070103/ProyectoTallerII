@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formLogin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblDeliMarket = new System.Windows.Forms.Label();
+            this.lblCeliMarket = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -65,7 +65,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(59)))), ((int)(((byte)(96)))));
-            this.panel1.Controls.Add(this.lblDeliMarket);
+            this.panel1.Controls.Add(this.lblCeliMarket);
             this.panel1.Controls.Add(this.txtPassword);
             this.panel1.Controls.Add(this.txtUsuario);
             this.panel1.Controls.Add(this.btnLogin);
@@ -75,18 +75,18 @@
             this.panel1.TabIndex = 1;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
-            // lblDeliMarket
+            // lblCeliMarket
             // 
-            this.lblDeliMarket.AutoSize = true;
-            this.lblDeliMarket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(59)))), ((int)(((byte)(96)))));
-            this.lblDeliMarket.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeliMarket.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblDeliMarket.Location = new System.Drawing.Point(37, 0);
-            this.lblDeliMarket.Name = "lblDeliMarket";
-            this.lblDeliMarket.Size = new System.Drawing.Size(169, 40);
-            this.lblDeliMarket.TabIndex = 2;
-            this.lblDeliMarket.Text = "DeliMarket";
-            this.lblDeliMarket.Click += new System.EventHandler(this.lblDeliMarket_Click);
+            this.lblCeliMarket.AutoSize = true;
+            this.lblCeliMarket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(59)))), ((int)(((byte)(96)))));
+            this.lblCeliMarket.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCeliMarket.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.lblCeliMarket.Location = new System.Drawing.Point(37, 0);
+            this.lblCeliMarket.Name = "lblCeliMarket";
+            this.lblCeliMarket.Size = new System.Drawing.Size(166, 40);
+            this.lblCeliMarket.TabIndex = 2;
+            this.lblCeliMarket.Text = "CeliMarket";
+            this.lblCeliMarket.Click += new System.EventHandler(this.lblDeliMarket_Click);
             // 
             // txtPassword
             // 
@@ -163,7 +163,7 @@
             // 
             this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(10)))), ((int)(((byte)(25)))));
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(510, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(510, 6);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(22, 23);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -177,7 +177,7 @@
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
             this.btnMaximizar.Location = new System.Drawing.Point(538, 0);
             this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(22, 23);
+            this.btnMaximizar.Size = new System.Drawing.Size(22, 29);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMaximizar.TabIndex = 7;
             this.btnMaximizar.TabStop = false;
@@ -236,7 +236,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Label lblDeliMarket;
+        private System.Windows.Forms.Label lblCeliMarket;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.LinkLabel linkPassword;
         private System.Windows.Forms.PictureBox btnCerrar;

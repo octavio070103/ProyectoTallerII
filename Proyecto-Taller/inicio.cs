@@ -1,4 +1,5 @@
 ﻿using Proyecto_Taller.Presentacion.Formularios.Login;
+using Proyecto_Taller.Presentacion.Formularios.Vendedor;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_Taller
 {
-    public partial class Form1 : Form
+    public partial class inicio : Form
     {
-        public Form1()
+        public inicio()
         {
             InitializeComponent();
         }
@@ -22,6 +23,8 @@ namespace Proyecto_Taller
         {
             formLogin form2 = new formLogin();
             form2.Show();
+         //   MenuVendedor form2 = new MenuVendedor();
+           // form2.Show();
         }
     }
 }

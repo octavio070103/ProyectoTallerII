@@ -8,4 +8,6 @@ C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-T
 C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.exe
 C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto-Taller.pdb
 C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Login.formLogin.resources
-C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Form1.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.inicio.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.FormPrueba.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.MenuVendedor.resources
