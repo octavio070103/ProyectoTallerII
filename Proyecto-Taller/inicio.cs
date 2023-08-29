@@ -21,10 +21,10 @@ namespace Proyecto_Taller
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formLogin form2 = new formLogin();
-            form2.Show();
-         //   MenuVendedor form2 = new MenuVendedor();
-           // form2.Show();
+           // formLogin form2 = new formLogin();
+          //  form2.Show();
+            FormMenu form2 = new FormMenu();
+             form2.Show();
         }
     }
 }

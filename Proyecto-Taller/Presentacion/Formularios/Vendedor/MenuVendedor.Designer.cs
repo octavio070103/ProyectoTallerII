@@ -44,6 +44,7 @@
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.PMenuLat.SuspendLayout();
             this.PSubmenu1.SuspendLayout();
+            this.PLogo.SuspendLayout();
             this.PVentana.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -165,6 +166,7 @@
             // PLogo
             // 
             this.PLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(59)))), ((int)(((byte)(46)))));
+            this.PLogo.Controls.Add(this.panel2);
             this.PLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PLogo.Location = new System.Drawing.Point(0, 0);
             this.PLogo.Name = "PLogo";
@@ -174,9 +176,8 @@
             // PVentana
             // 
             this.PVentana.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(10)))), ((int)(((byte)(25)))));
-            this.PVentana.Controls.Add(this.panel2);
-            this.PVentana.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PVentana.Location = new System.Drawing.Point(250, 0);
+            this.PVentana.Controls.Add(this.btnMaximizar);
+            this.PVentana.Location = new System.Drawing.Point(250, 32);
             this.PVentana.Name = "PVentana";
             this.PVentana.Size = new System.Drawing.Size(684, 561);
             this.PVentana.TabIndex = 1;
@@ -186,9 +187,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(10)))), ((int)(((byte)(25)))));
             this.panel2.Controls.Add(this.btnCerrar);
             this.panel2.Controls.Add(this.btnMinimizar);
-            this.panel2.Controls.Add(this.btnMaximizar);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Location = new System.Drawing.Point(247, 32);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(684, 32);
             this.panel2.TabIndex = 9;
@@ -219,7 +218,7 @@
             // 
             this.btnMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(10)))), ((int)(((byte)(25)))));
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(634, 0);
+            this.btnMaximizar.Location = new System.Drawing.Point(591, 32);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(22, 23);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -242,6 +241,7 @@
             this.Load += new System.EventHandler(this.MenuVendedo_Load);
             this.PMenuLat.ResumeLayout(false);
             this.PSubmenu1.ResumeLayout(false);
+            this.PLogo.ResumeLayout(false);
             this.PVentana.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();

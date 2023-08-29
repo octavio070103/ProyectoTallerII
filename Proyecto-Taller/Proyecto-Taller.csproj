@@ -64,6 +64,12 @@
     <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.Designer.cs">
       <DependentUpon>FormPrueba.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Formularios\Gerente\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Gerente\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Vendedor\FormPrueba.resx">
       <DependentUpon>FormPrueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Gerente\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Vendedor\MenuVendedor.resx">
       <DependentUpon>MenuVendedor.cs</DependentUpon>
@@ -110,7 +119,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Presentacion\Formularios\Admin\" />
-    <Folder Include="Presentacion\Formularios\Gerente\" />
     <Folder Include="Presentacion\Formularios\Inicio\" />
     <Folder Include="Presentacion\Fotos\Admin\" />
     <Folder Include="Presentacion\Fotos\Gerente\" />
