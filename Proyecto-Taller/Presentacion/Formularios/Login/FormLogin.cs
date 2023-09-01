@@ -128,6 +128,7 @@ namespace Proyecto_Taller.Presentacion.Formularios.Login
             }
         }
 
+        /*funcionalidades para que cuando el usuario cliquee en algunos de estos controles pueda mover toda el formulario*/
         private void formLogin_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();

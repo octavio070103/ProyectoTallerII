@@ -46,16 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="inicio.cs">
+    <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="inicio.Designer.cs">
-      <DependentUpon>inicio.cs</DependentUpon>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Formularios\Gerente\prueba.cs">
+    <Compile Include="Presentacion\Formularios\Admin\FrmRegitrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Formularios\Gerente\prueba.Designer.cs">
+    <Compile Include="Presentacion\Formularios\Admin\FrmRegitrarUsuario.Designer.cs">
+      <DependentUpon>FrmRegitrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Admin\MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Admin\MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Admin\prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Admin\prueba.Designer.cs">
       <DependentUpon>prueba.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Formularios\Login\FormLogin.cs">
@@ -70,11 +82,11 @@
     <Compile Include="Presentacion\Formularios\Gerente\FormMenuGerente.Designer.cs">
       <DependentUpon>FormMenuGerente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Formularios\menu\MenuPadre.cs">
+    <Compile Include="Presentacion\Formularios\Gerente\MenuGerente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Formularios\menu\MenuPadre.Designer.cs">
-      <DependentUpon>MenuPadre.cs</DependentUpon>
+    <Compile Include="Presentacion\Formularios\Gerente\MenuGerente.Designer.cs">
+      <DependentUpon>MenuGerente.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.cs">
       <SubType>Form</SubType>
@@ -84,10 +96,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="inicio.resx">
-      <DependentUpon>inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Formularios\Gerente\prueba.resx">
+    <EmbeddedResource Include="Presentacion\Formularios\Admin\FrmRegitrarUsuario.resx">
+      <DependentUpon>FrmRegitrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Admin\MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Admin\prueba.resx">
       <DependentUpon>prueba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Login\FormLogin.resx">
@@ -96,8 +114,8 @@
     <EmbeddedResource Include="Presentacion\Formularios\Gerente\FormMenuGerente.resx">
       <DependentUpon>FormMenuGerente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Formularios\menu\MenuPadre.resx">
-      <DependentUpon>MenuPadre.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Formularios\Gerente\MenuGerente.resx">
+      <DependentUpon>MenuGerente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Vendedor\FormPrueba.resx">
       <DependentUpon>FormPrueba.cs</DependentUpon>
@@ -133,8 +151,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Presentacion\Formularios\Admin\" />
     <Folder Include="Presentacion\Formularios\Inicio\" />
+    <Folder Include="Presentacion\Formularios\menu\" />
     <Folder Include="Presentacion\Fotos\Admin\" />
     <Folder Include="Presentacion\Fotos\Gerente\" />
     <Folder Include="Presentacion\Fotos\Inicio\" />

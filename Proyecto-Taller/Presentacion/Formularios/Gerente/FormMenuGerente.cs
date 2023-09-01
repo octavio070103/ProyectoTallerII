@@ -1,4 +1,4 @@
-﻿using Proyecto_Taller.Presentacion.Formularios.Gerente;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -61,11 +61,11 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
         
          }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+      /*  private void btnLogout_Click(object sender, EventArgs e)
         {
             MenuPadre form2 = new MenuPadre();
             form2.Show();
-        }
+        }*/
     }
 
 }

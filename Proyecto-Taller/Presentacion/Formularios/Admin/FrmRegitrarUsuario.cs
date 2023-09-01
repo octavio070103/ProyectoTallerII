@@ -1,5 +1,4 @@
-﻿using Proyecto_Taller.Presentacion.Formularios.Vendedor;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Proyecto_Taller.Presentacion.Formularios.Gerente
+namespace Proyecto_Taller.Presentacion.Formularios.Admin
 {
-    public partial class prueba : FormMenuGerente
+    public partial class FrmRegitrarUsuario : Form
     {
-        public prueba()
+        public FrmRegitrarUsuario()
         {
             InitializeComponent();
         }
