@@ -15,3 +15,22 @@ C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_T
 C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.MenuAdmin.resources
 C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Admin.FrmRegitrarUsuario.resources
 C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Admin.prueba.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\bin\Debug\Proyecto-Taller.exe.config
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\bin\Debug\Proyecto-Taller.exe
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\bin\Debug\Proyecto-Taller.pdb
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.AssemblyReference.cache
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Inicio.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Admin.FrmRegitrarUsuario.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.MenuAdmin.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Admin.prueba.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Login.formLogin.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.FormMenuGerente.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.MenuGerente.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.FormPrueba.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.MenuVendedo.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.frmRegistrarCliente.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto_Taller.Properties.Resources.resources
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.GenerateResource.cache
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.CoreCompileInputs.cache
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.exe
+C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.pdb

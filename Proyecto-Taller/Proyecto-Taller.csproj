@@ -94,6 +94,18 @@
     <Compile Include="Presentacion\Formularios\Vendedor\FormPrueba.Designer.cs">
       <DependentUpon>FormPrueba.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\MenuVendedor.Designer.cs">
+      <DependentUpon>MenuVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\RegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Formularios\Vendedor\RegistrarCliente.Designer.cs">
+      <DependentUpon>RegistrarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Inicio.resx">
@@ -119,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Formularios\Vendedor\FormPrueba.resx">
       <DependentUpon>FormPrueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Vendedor\MenuVendedor.resx">
+      <DependentUpon>MenuVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Formularios\Vendedor\RegistrarCliente.resx">
+      <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -156,7 +174,6 @@
     <Folder Include="Presentacion\Fotos\Admin\" />
     <Folder Include="Presentacion\Fotos\Gerente\" />
     <Folder Include="Presentacion\Fotos\Inicio\" />
-    <Folder Include="Presentacion\Fotos\Vendedor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Presentacion\Formularios\Vendedor\borarr.txt" />
@@ -168,6 +185,7 @@
     <Content Include="Presentacion\Fotos\Login\minimizar-signo.png" />
     <Content Include="Presentacion\Fotos\Login\user.png" />
     <Content Include="Presentacion\Fotos\Login\x.png" />
+    <Content Include="Presentacion\Fotos\Vendedor\x.png" />
     <Content Include="Resources\home.png" />
     <Content Include="Resources\icons8-compress-96.png" />
     <Content Include="Resources\logout %281%29.png" />
