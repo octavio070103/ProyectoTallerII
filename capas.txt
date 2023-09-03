@@ -26,3 +26,5 @@ Mostrar datos de manera visual y comprensible para el usuario.
 Recopilar datos ingresados por el usuario a través de formularios u otras interfaces.
 Enviar comandos y solicitudes a la capa de negocio en función de las acciones del usuario.
 Presentar la información de manera organizada y atractiva.
+dfgdfgdfgdgfdgfg
+=----------------------------
