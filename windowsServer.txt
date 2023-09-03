@@ -1,0 +1,11 @@
+sql server]
+para crear una nueva bd debo de dirigirme a la carpeta database y tocar en nuevo
+ luego lo mismo para una tabla
+para asignar clave primaria a un campo hago doble click primary key y luego si va a ser una clave auto incremental debemos ir a las propeidades de este campo 
+y desplegar identity specification y is idetyty marcar yes ,y ahi podemos elegir tambien de cuanto en cuanto incremento el valor
+
+luego para crear las clave foraneas debo de ir a database diagrams y tocar nuevo,luego vinculo la clave primaria con la forenea y debo restrigir para que la 
+modficacion o actualizacion sea en cascada
+
+la capa de negocio es el qeu se debe de encargar de convertir los datos que vienen de la capa de presentacion por jeemplo los valores de los textBox son string bueno en la 
+capa de presentacion nNO convierto en en la de negocio

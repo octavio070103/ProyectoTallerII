@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_Taller.Presentacion.Formularios.Admin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,12 +11,14 @@ using System.Windows.Forms;
 
 namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
 {
-    public partial class MenuGerente : Form
+    public partial class MenuAdmin : Form
     {
         private Point mouseDownLocation;
         private Size originalSize;
+
         bool sidebarExpand;
-        public MenuGerente()
+
+        public MenuAdmin()
         {
             InitializeComponent();
             personalizarDiseno();
@@ -51,7 +54,7 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
 
             if (subMenu.Visible == false)
             {
-                ocultarSubmenu(subMenu);       //**** Si el submenu no se ve, oculta los demas submenus
+              //  ocultarSubmenu(subMenu);       //**** Si el submenu no se ve, oculta los demas submenus
                 subMenu.Visible = true; //**** Muestra el submenu indicado
 
             }
@@ -64,6 +67,7 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
         /*submenu caja*/
         private void btnCaja_Click(object sender, EventArgs e)
         {
+            
             //*** Modificar si es necesario - borrar
             mostrarSubmenu(PSubmenu1);
         }
@@ -71,11 +75,15 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
         private void btnInfoCaja_Click(object sender, EventArgs e)
         {
             ocultarSubmenu(PSubmenu1);
+            FrmRegitrarUsuario frmRegistrarUsuario = new FrmRegitrarUsuario(); // Crea una instancia del formulario destino
+            frmRegistrarUsuario.Show(); // Muestra el formulario destino
         }
 
         private void btnCerrarCaja_Click(object sender, EventArgs e)
         {
             ocultarSubmenu(PSubmenu1);
+            
+            
         }
 
         /*submenu Ventas*/
@@ -199,20 +207,14 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void picMaxPantalla_Click_1(object sender, EventArgs e)
+        private void picMaxPantalla_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
             picMaxPantalla.Visible = false;
             picRestaurar.Visible = true;
         }
-
-
-        private void btnMaximizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Maximized;
-            picMaxPantalla.Visible = false;
-            picRestaurar.Visible = true;
-        }
+   
+      
 
         private void sidebarTime_Tick(object sender, EventArgs e)
         {
@@ -237,7 +239,7 @@ namespace Proyecto_Taller.Presentacion.Formularios.Vendedor
             }
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             sidebarTime.Start();
         }

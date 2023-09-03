@@ -297,7 +297,7 @@
             this.btnLogout.Text = "Log out";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            
             // 
             // FormMenuGerente
             // 
