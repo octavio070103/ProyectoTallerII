@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DCD6PFThKbzTMUNwTionyboY+1IsIx4QcmyZpY/YCdLoIbh6rPFRjRnAqIToGdtRPwRC9fKZFICu5ChVbMzzcg==",
+  "dgSpecHash": "RfDtnuEa3uuZ7f/xKbELFfPUyC2aiLQENWiG1tuY3IaCrlrZdL3POqUh6MmcfeQPxAHIHvVzqoomcsnbMIWlKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lauch\\OneDrive\\Escritorio\\Escritorio 3\\Facultad 2023\\Taller de Programación II\\Proyecto Taller II\\ProyectoTallerII\\CapaLogica\\CapaLogica.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\octav\\source\\repos\\Proyecto-Taller\\CapaLogica\\CapaLogica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\octav\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\octav\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\octav\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

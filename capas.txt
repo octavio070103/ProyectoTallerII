@@ -28,3 +28,7 @@ Enviar comandos y solicitudes a la capa de negocio en función de las acciones d
 Presentar la información de manera organizada y atractiva.
 dfgdfgdfgdgfdgfg
 =----------------------------
+
+par apoder hacer uso de las capas de datos con la de negocio debo de referenciarlas para esto haga click izq sobre alguna de las capas(en referencia o pdependecia) y
+voy ahsta referencia y referncio dichas capas  o marco las capas qeu quiero referenciar en este caso datos con logica y logica  con presentacion
+esto lo ahgo apra que se puedan comuinicar entre las capas 

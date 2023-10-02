@@ -34,3 +34,6 @@ C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programa
 C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.csproj.CoreCompileInputs.cache
 C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.exe
 C:\Users\Lauch\OneDrive\Escritorio\Escritorio 3\Facultad 2023\Taller de Programación II\Proyecto Taller II\ProyectoTallerII\Proyecto-Taller\obj\Debug\Proyecto-Taller.pdb
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Admin.FrmRegistrarPerfil.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.MenuVendedo.resources
+C:\Users\octav\source\repos\Proyecto-Taller\Proyecto-Taller\obj\Debug\Proyecto_Taller.Presentacion.Formularios.Vendedor.frmRegistrarCliente.resources

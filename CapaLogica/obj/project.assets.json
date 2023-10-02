@@ -1,43 +1,44 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lauch\\.nuget\\packages\\": {},
+    "C:\\Users\\octav\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lauch\\OneDrive\\Escritorio\\Escritorio 3\\Facultad 2023\\Taller de Programación II\\Proyecto Taller II\\ProyectoTallerII\\CapaLogica\\CapaLogica.csproj",
+      "projectUniqueName": "C:\\Users\\octav\\source\\repos\\Proyecto-Taller\\CapaLogica\\CapaLogica.csproj",
       "projectName": "CapaLogica",
-      "projectPath": "C:\\Users\\Lauch\\OneDrive\\Escritorio\\Escritorio 3\\Facultad 2023\\Taller de Programación II\\Proyecto Taller II\\ProyectoTallerII\\CapaLogica\\CapaLogica.csproj",
-      "packagesPath": "C:\\Users\\Lauch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lauch\\OneDrive\\Escritorio\\Escritorio 3\\Facultad 2023\\Taller de Programación II\\Proyecto Taller II\\ProyectoTallerII\\CapaLogica\\obj\\",
+      "projectPath": "C:\\Users\\octav\\source\\repos\\Proyecto-Taller\\CapaLogica\\CapaLogica.csproj",
+      "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\octav\\source\\repos\\Proyecto-Taller\\CapaLogica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lauch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "projectReferences": {}
         }
       },
@@ -48,8 +49,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -61,12 +62,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.22, 6.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.22, 6.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.22, 6.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

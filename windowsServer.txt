@@ -9,3 +9,58 @@ modficacion o actualizacion sea en cascada
 
 la capa de negocio es el qeu se debe de encargar de convertir los datos que vienen de la capa de presentacion por jeemplo los valores de los textBox son string bueno en la 
 capa de presentacion nNO convierto en en la de negocio
+-----------------------
+JOIN: 
+inner join:
+El inner join es un tipo de join en SQL que se utiliza para combinar filas de dos tablas en función de una condición de igualdad entre las columnas de ambas tablas. Este tipo de join devuelve solo las filas que tienen valores coincidentes en ambas tablas.
+
+Para realizar un inner join, se deben seguir los siguientes pasos:
+Seleccionar las columnas que se desean mostrar en la tabla resultante.
+Especificar las tablas que se van a unir y la condición de igualdad entre las columnas.
+Utilizar la cláusula WHERE para filtrar los resultados si es necesario.
+--
+busca unir las 2 tablas por algun dato que tengan en comun(las claves fk de una tbaala y la pk de la otra)
+ el INNER JOIN es un tipo de operación de combinación de tablas en SQL que se utiliza para recuperar registros de dos o más tablas basados en una condición de coincidencia específica. Esta condición de coincidencia se establece en
+ la cláusula ON y se utiliza para relacionar las filas de las tablas involucradas en la consulta.
+
+ejemplo 1:Esta consulta selecciona todas las columnas de ambas tablas involucradas en la unión (en este caso, usuario y rol).
+El resultado contendrá todas las columnas de ambas tablas, sin importar si tienen el mismo nombre o no.
+
+SELECT *                                       aca le digo que me traiga todos los usuarios donde  se junte con los roles,esepcificando que datos son los que se unen entre la tabla de usuario y rol con la sentencia ON
+FROM usuario 					aca decimos que en la tabla usuario en el campo id_rol(fk)coidncida con la tabla o se igual en la tabla rol.id_rol(pk)
+INNER JOIN rol
+ON usuario.id_rol = rol.id_rol
+
+---
+ej2 aca no selecciono todos los campos de la tabla como el anteriro sino que seleciono odas las columnas de la tabla usuario (usando usuario.*) y la columna descripcion_perfil de la tabla rol.
+el result de este sera :El resultado tendrá todas las columnas de la tabla usuario y solo la columna descripcion_perfil de la tabla rol
+
+SELECT usuario.*, rol.descripcion_perfil
+FROM usuario
+INNER JOIN rol ON usuario.id_rol = rol.id_rol;
+
+usuario y rol son los nombres de las tablas que deseas unir.
+
+usuario.id_rol y rol.id_rol son las columnas que se utilizan para unir las dos tablas. Debes asegurarte de que estas columnas estén relacionadas,
+ lo que significa que usuario.id_rol debe ser una clave externa que haga referencia a rol.id_rol
+SELECT usuario.*, rol.descripcion_perfil selecciona todas las columnas de la tabla usuario (usando usuario.*) y la columna descripcion_perfil de la tabla rol
+La consulta anterior devolverá todos los registros de la tabla usuario, junto con la descripción del perfil (rol) al que pertenece cada usuario. Esto es útil cuando deseas obtener información de usuarios y sus roles en una sola consulta.
+
+ejmplo de resultado del ej1
+id	nombre	 apellido	dni	 	gmail		password  tel		id_rol	 id_domicilio	estado	id_rol descripcion_rol estado
+1	octavio	 sanchez	44622119	octi@gmail.com	123	  3795058041	1		1	1	1	ADMINISTRADOR	1
+4	fernando sanchez	44622120	fer@gmail.com	123	  3795058040	1		1	1	1	ADMINISTRADOR	1
+
+-usuario.id_rol y rol.id_rol serian nuestra intercession
+ej3:
+SELECT u.id_usuario, u.nombre, u.apellido, u.dni, u.email,u.password,u.telefono,u.estado_usuario, r.id_rol, r.descripcion_rol
+FROM usuario u
+INNER JOIN rol r
+ON u.id_rol = r.id_rol;
+ se seleccionan columnas específicas utilizando sus nombres calificados con el alias de tabla correspondiente (u para usuario y r para rol). Esto permite un mayor control sobre las columnas que 
+se incluyen en el resultado y evita conflictos de nombres si ambas tablas tienen columnas con el mismo nombre.
+------
+tambien podemos tener un inner join de forma implicita que seria asi 
+SELECT *
+FROM usuario,rol
+WHERE usuario.id_rol = rol.id_rol
